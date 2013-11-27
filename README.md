@@ -12,14 +12,7 @@ git clone 网站
 git submodule update --init 
 ```
 这个时候模块才会有内容
-添加操作，当你有修改的时候使用
-```
-git add .
-```
-看你有没有修改的部分
-```
-git status
-```
+
 查看分支
 ```
 git branch
@@ -29,7 +22,8 @@ git branch
 master的颜色为红色表示你的版本低与他人，蓝色代表版本一致，
 绿色代表版本高于他人。    
       
-当你想要新增加功能，首先要新创建一个分支
+当你想要新增加功能，首先要新创建一个分支      
+
 1.保存
 2.commit
 3.push to UpStream
