@@ -45,7 +45,7 @@ git merge
 ```
 git pull
 ```
-request pull(要求他人更新你的功能)    
+pull request(要求他人更新你的功能)    
 
 关于颜色说明:   
 
