@@ -5,7 +5,7 @@ ETWorkspace
 确认你已安装git
 下载工作空间
 ```
-git clone 网站 
+git clone https://github.com/a869180619/ETWorkspace/tree/Document
 ```
  这时候这个模块的文件中内容是空的
 ```
