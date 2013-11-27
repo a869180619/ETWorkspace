@@ -3,11 +3,11 @@ ETWorkspace
 ##工程使用说明文档##
 首先chekout时候不需要注册账号，提交上去时候需要注册账号。
 确认你已安装git
-下载工作空间
+在cmd命令中，下载工作空间
 ```
 git clone https://github.com/a869180619/ETWorkspace/tree/Document
 ```
- 这时候这个模块的文件中内容是空的
+ 这时候这个模块的文件中内容是空的，需执行
 ```
 git submodule update --init 
 ```
