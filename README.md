@@ -20,15 +20,23 @@ git status
 ```
 git add .
 ```
-查看分支
+查看
 ```
 git branch
 ```
-提交到本地
+下载你所需要的库
 ```
-git commit
+git checkout 名称
 ```
-创建分支
+当你修改的时候，先提交到本地，在向上提交
+```
+git commit   // 提交本地
+```
+向上提交
+```
+git pull
+```
+如果你想为工作空间新增功能的时候，首先创建分支
 ```
 git branch 分支名称 
 ```
@@ -36,15 +44,15 @@ git branch 分支名称
 ```
 git branch --delete 分支名称
 ```
-提交到主干上
+当你的分支完场，切稳定的时候，合到主干上
 ```
 git merge
 ```
-提交到服务器上
+最后提交到服务器上
 ```
 git pull
 ```
-pull request(要求他人更新你的功能)    
+pull request(要求他人更新你的新增功能)    
 
 关于颜色说明:   
 
