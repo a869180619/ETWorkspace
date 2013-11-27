@@ -45,7 +45,8 @@ git merge
 ```
 git pull
 ```
-request pull(要求他人跟新你的功能)
+request pull(要求他人跟新你的功能)   
+
 关于颜色说明:   
 
 master的颜色为红色表示你的版本低，蓝色代表版本一致，
