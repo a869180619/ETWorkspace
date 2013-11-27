@@ -16,7 +16,7 @@ git submodule update --init
 ```
 git add .
 ```
-看你有没有要修改的部分
+看你有没有修改的部分
 ```
 git status
 ```
@@ -25,11 +25,11 @@ git status
 git branch
 ```
 关于颜色说明:
-master的颜色为红色表示你的版本低与，蓝色代表版本一致，
-绿色代表版本高于。
-发表你的内容到readme上
+master的颜色为红色表示你的版本低与他人，蓝色代表版本一致，
+绿色代表版本高于他人。
+当你想要新增加功能，首先要新创建一个分支
 1.保存
 2.commit
-3.push
-4.merge 到主干上
-5.pull request
+3.push to UpStream
+4.分支完成，并且是一个稳定版本后需要添加到主干上
+5.pull request（要求他人跟新功能）
